@@ -1,10 +1,17 @@
 # TradeLab
 
-Plateforme de trading crypto pour s'entraîner, dans un seul fichier `index.html` (aucune dépendance).
+Plateforme de trading pour s'entraîner, dans un seul fichier `index.html` (aucune dépendance).
 
 - Capital de départ : 20 000 €
-- 20 cryptos (BTC, ETH, SOL, BNB, XRP, ADA, DOGE, AVAX, DOT, LINK, LTC, TRX, SHIB, ATOM, UNI, NEAR, SUI, XLM, PEPE, AAVE)
-- Cours en temps réel en EUR (données publiques Binance) ; sans connexion, les cours continuent d'évoluer automatiquement
+- 36 actifs, filtrables par catégorie :
+  - Crypto : BTC, ETH, SOL, BNB, XRP, ADA, DOGE, AVAX, DOT, LINK, LTC, TRX, SHIB, ATOM, UNI, NEAR, SUI, XLM, PEPE, AAVE
+  - Matières premières : or, argent, pétrole Brent, gaz naturel
+  - Indices : S&P 500, Nasdaq 100, Dow Jones, CAC 40, DAX 40
+  - Actions : Apple, Tesla, Nvidia, Microsoft, Amazon, LVMH
+- Cours en temps réel en EUR pour les cryptos et l'or (données publiques Binance, l'or via le jeton PAXG) ;
+  sans connexion, les cours continuent d'évoluer automatiquement
+- Argent, pétrole, gaz, indices et actions : aucune source gratuite en temps réel n'est utilisable depuis un
+  navigateur, leurs cotations sont donc simulées (mouvements réalistes, historique cohérent d'une visite à l'autre)
 - Ordres au marché, limite et stop (stop-loss), frais de 0,1 %
 - Graphiques ligne / bougies (1H, 1J, 1S, 1M, 1A) avec prix moyen et ordres affichés
 - Portefeuille (PRU, P&L latent et réalisé, répartition), historique et taux de réussite
